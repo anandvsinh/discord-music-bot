@@ -6,7 +6,7 @@ Below is the installation, configuration process:
 
 ### Installation:
 ```
-git clone <repo-url>
+git clone https://github.com/anandvsinh/discord-music-bot
 cd project-folder
 npm install
 ```
