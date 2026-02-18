@@ -14,10 +14,10 @@ const client = new Client({
 
 const nodes = [
   {
-    name: "https://discord-lavalink.onrender.com",
-    url: "localhost:2333",
+    name: "Render",
+    url: "https://discord-lavalink.onrender.com:433",
     auth: "youshallnotpass",
-    secure: false
+    secure: true,
   }
 ];
 
@@ -256,5 +256,6 @@ client.on("interactionCreate", async interaction => {
 require("dotenv").config();
 
 client.login(process.env.DISCORD_TOKEN);
+
 
 
