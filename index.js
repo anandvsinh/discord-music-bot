@@ -253,4 +253,7 @@ client.on("interactionCreate", async interaction => {
 });
 
 
-client.login("ENTER-BOT-TOKEN");
+require("dotenv").config();
+
+client.login(process.env.DISCORD_TOKEN);
+
